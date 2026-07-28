@@ -2,7 +2,7 @@
 
 This category covers runtime memory, allocation, and safety issues.
 
-Topics:
+## Topics
 
 - [The Stack](27-stack/LESSON.md)
 - [The Heap](28-heap/LESSON.md)
@@ -19,4 +19,6 @@ Topics:
 - [const](39-const/LESSON.md)
 - [sizeof](40-sizeof/LESSON.md)
 
-Read these lessons to understand how memory is allocated, accessed, and released safely.
+## Suggested path
+
+Read these lessons in order to understand how memory is allocated, accessed, and released safely.

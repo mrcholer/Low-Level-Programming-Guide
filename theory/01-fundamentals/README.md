@@ -1,8 +1,8 @@
 # Fundamentals
 
-This category covers the basic concepts needed for low-level programming.
+This section covers the mental model behind computers, memory, and compilation.
 
-Topics:
+## Topics
 
 - [How Computers Work](01-how-computers-work/LESSON.md)
 - [Binary Numbers](02-binary/LESSON.md)
@@ -14,4 +14,6 @@ Topics:
 - [Header Files](08-header-files/LESSON.md)
 - [Libraries](09-libraries/LESSON.md)
 
-Use this section to build a foundation before moving on to data types, pointers, and systems programming.
+## Suggested path
+
+Read the lessons in order to build a strong foundation before moving on to data, pointers, and systems programming.

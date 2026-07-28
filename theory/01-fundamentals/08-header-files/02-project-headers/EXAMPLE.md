@@ -1,4 +1,4 @@
-﻿# Examples for Project Headers
+# Examples for Project Headers
 
 ## Example 1: header declaration with write()
 

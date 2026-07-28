@@ -2,7 +2,7 @@
 
 This category covers function usage, parameter passing, and return behavior.
 
-Topics:
+## Topics
 
 - [Functions](23-functions/LESSON.md)
 - [Arguments and Parameters](24-arguments-parameters/LESSON.md)
@@ -10,4 +10,6 @@ Topics:
 - [argc and argv](26-argc-argv/LESSON.md)
 - [Function Pointers](41-function-pointers/LESSON.md)
 
-These lessons help you understand how to structure code, pass data, and work with function pointers.
+## Suggested path
+
+These lessons help you structure code, pass data correctly, and work with function pointers.

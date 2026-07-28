@@ -187,11 +187,7 @@ printf("%p\n", (void *)&n);  // prints address like 0x7ffd...
 | Declaration | "pointer to" | `int *p;` |
 | Expression | "value at address" | `*p = 99;` |
 
-//====================================================
-// STOP
-Ask students: In `int *p = &n;` how many times does `*` appear and what does each mean?
-Continue only after discussion.
-//====================================================
+> **Class prompt:** In `int *p = &n;`, how many times does `*` appear and what does each mean? Continue only after discussion.
 
 ---
 

@@ -35,7 +35,7 @@ scores[0] = 95;
 scores[1] = 88;
 ```
 
-//! **Arrays exist because memory is linear — and the CPU is fast at sequential access.**
+> **Note:** Arrays exist because memory is linear, and the CPU is fast at sequential access.
 
 ---
 
@@ -56,7 +56,7 @@ Floor (memory):
   [0]   [1]   [2]   [3]   [4]
 ```
 
-//* Apartment 0 is the FIRST one — that's why index 0, not 1.
+> **Tip:** Apartment 0 is the first one, which is why index 0 is used instead of 1.
 
 ---
 
@@ -105,11 +105,7 @@ Address of arr[i] = address_of_arr + (i × sizeof(element))
 
 If we started at 1, every address calculation would need `i - 1` — wasteful on every access.
 
-//====================================================
-// STOP
-Ask students: If `arr` starts at 0x1000 and `int` is 4 bytes, what address is `arr[2]`?
-Answer: 0x1008. Discuss before continuing.
-//====================================================
+> **Class prompt:** If `arr` starts at `0x1000` and `int` is 4 bytes, what address is `arr[2]`? The answer is `0x1008`; discuss it before continuing.
 
 ---
 
@@ -136,7 +132,7 @@ arr --> [10][20][30]
     arr == &arr[0]
 ```
 
-//! **Array name ≈ constant pointer to first element** (with subtle differences — see below).
+> **Note:** An array name behaves like a constant pointer to the first element, but it has a few subtle differences that are explained below.
 
 ### Difference: array vs pointer
 
@@ -277,11 +273,12 @@ arr[0] = arr[0] + 1;   // garbage + 1
 
 ## Best Practices
 
-//* Always know: how many elements? Valid indexes?
-//* For strings: leave room for `\0`
-//* Pass size explicitly: `void f(int *arr, int size)`
-//* Draw memory before loops
-//* Use meaningful index names or `i`, `j` consistently
+> **Tips:**
+> - Always know how many elements you have and which indexes are valid.
+> - Leave room for `\0` when working with strings.
+> - Pass the size explicitly, for example `void f(int *arr, int size)`.
+> - Draw memory before writing loops.
+> - Use meaningful index names such as `i` and `j` consistently.
 
 ---
 
@@ -347,8 +344,8 @@ Pointer:     name == &name[0] (mostly)
 
 ## Useful Tips
 
-//! Arrays and pointers are taught together for a reason — draw both
-//? Before every `[i]`, ask: is i in range?
+> **Note:** Arrays and pointers are taught together for a reason — draw both concepts side by side.
+> **Question:** Before every `[i]`, ask whether `i` is in range.
 //* Piscine C02–C04 is mostly array + pointer practice — master this lesson first
 
 ## Exercises

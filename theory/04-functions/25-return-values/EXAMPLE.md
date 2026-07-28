@@ -1,8 +1,8 @@
-﻿# Examples for Return Values
+# Examples for Return Values
 
 ## Example 1: simple write() output
 
-`c
+```c
 #include <unistd.h>
 
 int main(void) {
@@ -10,11 +10,11 @@ int main(void) {
     write(1, msg, sizeof(msg) - 1);
     return 0;
 }
-`
+```
 
 ## Example 2: helper functions and write()
 
-`c
+```c
 #include <unistd.h>
 
 void print_str(const char *s) {
@@ -33,11 +33,11 @@ int main(void) {
     print_line("This uses helper functions and write().");
     return 0;
 }
-`
+```
 
 ## Example 3: loop and number output
 
-`c
+```c
 #include <unistd.h>
 
 void print_num(int n) {
@@ -67,4 +67,5 @@ int main(void) {
     }
     return 0;
 }
-`
+```
+

@@ -19,7 +19,7 @@ gcc main.c -L. -lft -o program
 # links libft.a or libft.so depending on what exists
 ```
 
-//! Important: A library is **not** magic — it is organized **machine code** built from `.c` files, plus headers so you know what to call.
+> **Note:** A library is not magic; it is organized machine code built from `.c` files, plus headers so you know what to call.
 
 ---
 
@@ -143,7 +143,7 @@ RAM text segment:
   PLT stubs → jump to libft.so already loaded in memory
 ```
 
-//? Question: Where does `ft_strlen` **code** live at runtime — in the header?  
+> **Question:** Where does `ft_strlen` code live at runtime — in the header?  
 // NOTE: In **RAM executable text segment** (or shared library mapping) — header had zero executable bytes.
 
 ### Calling a library function

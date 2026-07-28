@@ -1,4 +1,4 @@
-﻿# Examples for System Headers
+# Examples for System Headers
 
 ## Example 1: write() with <unistd.h>
 

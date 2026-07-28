@@ -99,7 +99,7 @@ argc == 3
 // argv[3] = NULL (often — see below)
 ```
 
-//! **argc includes the program name** — so minimum argc is **1** (no extra args).
+> **Note:** `argc` includes the program name, so the minimum value is **1** when no extra arguments are provided.
 
 ```c
 if (argc < 2)
@@ -158,11 +158,7 @@ argv (char **)
   "./a"   "hello"  "world"    actual char data (\0 terminated)
 ```
 
-//====================================================
-// STOP
-Ask students: What type is `argv[1]`? What type is `argv`?
-Answers: `char *` and `char **`. Draw on board before continuing.
-//====================================================
+> **Class prompt:** What type is `argv[1]`? What type is `argv`? The answers are `char *` and `char **`; draw them on the board before continuing.
 
 ---
 
@@ -321,8 +317,8 @@ if (argc < 2) { usage(); return 1; }
 
 ## Useful Tips
 
-//! C06 is entirely about argc/argv — read this lesson twice
-//? Say: "argv is array of strings; char ** points to first string pointer"
+> **Note:** This lesson is especially important for C06, so read it twice if needed.
+> **Reminder:** Think of `argv` as an array of strings, while `char **` points to the first string pointer.
 //* Live demo: `printf("argc=%d\n", argc);` for every test command
 
 ## Related Exercises

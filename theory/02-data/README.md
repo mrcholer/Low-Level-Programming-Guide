@@ -2,7 +2,7 @@
 
 This category explains how data is represented and organized in C.
 
-Topics:
+## Topics
 
 - [Variables](10-variables/LESSON.md)
 - [Data Types](11-data-types/LESSON.md)
@@ -11,4 +11,6 @@ Topics:
 - [Strings](14-strings/LESSON.md)
 - [Arrays](15-arrays/LESSON.md)
 
-Work through these lessons to understand how values are stored, manipulated, and accessed.
+## Suggested path
+
+Work through these lessons in order to understand how values are stored, manipulated, and accessed in memory.
